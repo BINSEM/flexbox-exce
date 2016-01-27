@@ -1,0 +1,50 @@
+body {
+	margin: 0;
+}
+html, body, .container {
+	height: 100%;
+}
+
+header {
+	height: 100px;
+	position: fixed;
+	background-color: #D1C4E9;
+	width: 100%;
+	text-align: center;
+}
+
+header p {
+	font-size: 100px;
+	margin: 0;
+}
+
+.flex {
+	flex: 1;
+	display: flex;
+}
+
+.overflow {
+	overflow: visible;
+	-webkit-columns: 7;
+	-moz-columns: 7;
+	margin-top: 110px;
+}
+
+.footer {
+	flex: 1;
+	display: flex;
+}
+
+footer {
+	position: fixed;
+	background-color: #D1C4E9;
+	width: 100%;
+	text-align: center;
+	bottom: 0;
+}
+
+footer p {
+	font-size: 65px;
+	margin: 0;
+}
+
